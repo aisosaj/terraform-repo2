@@ -143,10 +143,12 @@ resource "aws_instance" "web" {
   ami           = "ami-03a6eaae9938c858c"
   instance_type = "t2.micro"
 
-  subnet_id              = "subnet-07aa5c42dd0b04638"
-  vpc_security_group_ids = ["sg-03fac85e5800ce41d"]
+  subnet_id              = "subnet-01b339f7198110906"
+  vpc_security_group_ids = ["sg-03d279e114eabcf74"]
 
   tags = {
     "Terraform" = "true"
   }
 }
+
+
