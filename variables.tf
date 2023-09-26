@@ -34,3 +34,4 @@ variable "public_subnets1" {
     "public_subnet_3" = 3
   }
 }
+
